@@ -1,5 +1,9 @@
 # Latent Normalizing Flows for Discrete Sequences
 
+This code provides an implementation for and reproduces results from [Latent Normalizing Flows for Discrete Sequences](https://arxiv.org/abs/1901.10548)
+Zachary Ziegler, Alexander Rush
+ICML 2019
+
 ## Dependencies
 The code was tested with `python 3.6`, `pytorch 0.4.1`, `torchtext 0.2.3`, and `CUDA 9.2`.
 
