@@ -12,19 +12,19 @@ from torch.nn.utils.rnn import pad_sequence
 dset = namedtuple("dset", ["name", "url", "filename"])
 
 JSB_CHORALES = dset("jsb_chorales",
-                    "https://d2fefpcigoriu7.cloudfront.net/datasets/polyphonic/jsb_chorales.pickle",
+                    "http://www-etud.iro.umontreal.ca/~boulanni/JSB%20Chorales.pickle",
                     "jsb_chorales.pkl")
 
 PIANO_MIDI = dset("piano_midi",
-                  "https://d2fefpcigoriu7.cloudfront.net/datasets/polyphonic/piano_midi.pickle",
+                  "http://www-etud.iro.umontreal.ca/~boulanni/Piano-midi.de.pickle",
                   "piano_midi.pkl")
 
 MUSE_DATA = dset("muse_data",
-                 "https://d2fefpcigoriu7.cloudfront.net/datasets/polyphonic/muse_data.pickle",
+                 "http://www-etud.iro.umontreal.ca/~boulanni/MuseData.pickle",
                  "muse_data.pkl")
 
 NOTTINGHAM = dset("nottingham",
-                  "https://d2fefpcigoriu7.cloudfront.net/datasets/polyphonic/nottingham.pickle",
+                  "http://www-etud.iro.umontreal.ca/~boulanni/Nottingham.pickle",
                   "nottingham.pkl")
 str2obj = {'jsb_chorales': JSB_CHORALES, 'piano_midi': PIANO_MIDI, 'muse_data': MUSE_DATA, 'nottingham': NOTTINGHAM}
 
